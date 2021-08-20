@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { Ulid } = require('id128')
 
 const value = process.argv[2]
