@@ -8,6 +8,6 @@ if (!value) {
   process.exit(1)
 }
 
-const hex = Buffer.from(Ulid.fromCanonical(value).bytes).toString('hex')
+const hex = Ulid.fromCanonical(value).toRaw()
 
-console.log(`0x${hex.toUpperCase()}`)
+console.log(`0x${hex}`)
