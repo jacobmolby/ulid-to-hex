@@ -1,6 +1,6 @@
 {
   "name": "ulid-to-hex2",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A simple ULID/HEX converter. Usage: `npx ulid-to-hex 01FCB79DXEHPQJRD8BWC6G7PVH`",
   "repository": {
     "type": "git",
